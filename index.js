@@ -20,6 +20,7 @@ function App() {
   return (
     <div style={{ margin: 100 }}>
         <h1>请在规定范围内选择日期</h1>
+        <h2>请注意当天之前不可选择</h2>
         <DatePicker
             format="YYYY-MM-DD"
             disabledDate={disabledDate}
